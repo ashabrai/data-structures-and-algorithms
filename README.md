@@ -7,4 +7,4 @@
 <!-- Write a function that takes in array as an argument. Without any built in methods like .reverse, reverse the array. -->
 
 ## Solution
-<!-- The image is in the assets folder.-->
+![Array Reverse]("array_Reverse.JPG") // I believe this is how you embed a photo? 
