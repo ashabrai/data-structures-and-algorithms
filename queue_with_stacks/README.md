@@ -1,5 +1,5 @@
 ### Queue with Stacks
-
+[![Build Status](https://travis-ci.com/ashabrai/data-structures-and-algorithms.svg?branch=master)](https://travis-ci.com/ashabrai/data-structures-and-algorithms)
 
 ### Challenge
 Create a new queue class, using two stack instances. Using the following methods
