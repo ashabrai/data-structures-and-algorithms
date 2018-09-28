@@ -19,23 +19,20 @@ module.exports = class LinkedList {
     if (!this.head) {
       return null;
     }
-    let counter = 0;
-    let currentNode = this.head;
-    while (currentNode.next !== null) {
-      currentNode = currentNode.next;
-      counter += 1;
-    }
-    if (value > counter) {
-      return 'Exception';
-    }
-    currentNode = this.head;
-    const finalCounter = counter - value;
-    for (let i = 0; i < finalCounter; i++) {
-      if (i === (finalCounter)) {
-        return currentNode.value;
+    if (this.head) {
+      let counter = 0;
+      let currentNode = this.head;
+      while (currentNode.next) {
+        currentNode = currentNode.next;
+        counter += 1;
       }
-      currentNode = currentNode.next;
+      const finalCounter = counter - value - 1;
+      currentNode = this.head;
+      for (let i = 0; i < finalCounter; i++) {
+        currentNode = currentNode.next;
+      }
+      return currentNode.value;
     }
-    return null;
+    return undefined;
   }
 };
