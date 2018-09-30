@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02a1473a-f078-4807-9193-a496b6ef6fe8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../linked-lists/.eslintignore" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/IMG_7576.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__test__/animal_shelter.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/__test__/animal_shelter.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/animal-shelter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/animal-shelter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../linked-lists/eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/../linked-lists/eslintrc.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../linked-lists/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../linked-lists/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../linked-lists/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../linked-lists/package.json" afterDir="false" />
@@ -29,7 +33,7 @@
         <counts>
           <entry key="eslintignore" value="1" />
           <entry key="gitignore" value="1" />
-          <entry key="js" value="7" />
+          <entry key="js" value="9" />
           <entry key="json" value="6" />
           <entry key="md" value="1" />
           <entry key="yml" value="1" />
@@ -38,7 +42,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="6" />
-          <entry key="JavaScript" value="7" />
+          <entry key="JavaScript" value="9" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="YAML" value="1" />
@@ -46,13 +50,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="2066" />
+          <entry key="js" value="2115" />
           <entry key="md" value="257" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="2066" />
+          <entry key="JavaScript" value="2115" />
           <entry key="Markdown" value="257" />
         </counts>
       </usages-collector>
@@ -69,8 +73,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lib/animal-shelter.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="465">
+              <caret line="31" column="25" lean-forward="true" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -79,10 +83,28 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="120">
-                <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+              <first_editor relative-caret-position="150">
+                <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lib/animal.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/__test__/animal_shelter.test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -107,12 +129,13 @@
         <option value="$PROJECT_DIR$/lib/animal-shelter.js" />
         <option value="$PROJECT_DIR$/lib/animal.js" />
         <option value="$PROJECT_DIR$/lib/__test__/animal_shelter.test.js" />
-        <option value="$PROJECT_DIR$/__test__/animal_shelter.test.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/.eslintignore" />
         <option value="$PROJECT_DIR$/.eslintrc.json" />
+        <option value="$PROJECT_DIR$/__test__/animal_shelter.test.js" />
+        <option value="$PROJECT_DIR$/src/lib/animal-shelter.js" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -138,8 +161,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="79" />
-    <option name="y" value="349" />
+    <option name="x" value="334" />
+    <option name="y" value="23" />
     <option name="width" value="978" />
     <option name="height" value="712" />
   </component>
@@ -170,6 +193,11 @@
             <path>
               <item name="animalShelter" type="b2602c69:ProjectViewProjectNode" />
               <item name="animalShelter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="animalShelter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="animalShelter" type="462c0819:PsiDirectoryNode" />
+              <item name="__test__" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="animalShelter" type="b2602c69:ProjectViewProjectNode" />
@@ -205,6 +233,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -231,15 +260,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1538326148157</updated>
-      <workItem from="1538326150065" duration="4210000" />
+      <workItem from="1538326150065" duration="4797000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4210000" />
+    <option name="totallyTimeSpent" value="4797000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="79" y="349" width="978" height="712" extended-state="0" />
+    <frame x="334" y="23" width="978" height="712" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -293,13 +322,6 @@
     <entry file="file://$PROJECT_DIR$/src/stack.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/__test__/animal_shelter.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -331,13 +353,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/animal.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -345,18 +360,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/animal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__test__/animal_shelter.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/lib/animal-shelter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="465">
+          <caret line="31" column="25" lean-forward="true" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="120">
-            <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <first_editor relative-caret-position="150">
+            <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           </first_editor>
           <second_editor />
         </state>

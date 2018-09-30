@@ -20,18 +20,18 @@ module.exports = class AnimalShelter {
     let adoptAnimal = null;
 
     if (this.cat.length >= this.dog.length) {
-      longestTime = this.cat[0];
+      longestTime = this.cat[0]; // eslint-disable-line
     } else {
-      longestTime = this.dog[0];
+      longestTime = this.dog[0]; // eslint-disable-line
     }
     if (pref !== 'dog' && pref !== 'cat') {
       return longestTime;
     }
     if (pref === 'cat') {
-      adoptAnimal = this.cat[0];
+      adoptAnimal = this.cat[0]; // eslint-disable-line
       return adoptAnimal;
     }
-    adoptAnimal = this.dog[0];
+    adoptAnimal = this.dog[0]; // eslint-disable-line
     return adoptAnimal;
   }
 };
