@@ -2,7 +2,7 @@
   "name": "commonjs-modules",
   "version": "1.0.0",
   "description": "",
-  "main": "lib/solution.js",
+  "main": "solution.js",
   "directories": {
     "lib": "lib"
   },
